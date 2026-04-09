@@ -1,0 +1,34 @@
+{
+    "valid_booking": {
+        "firstname": "Jenny",
+        "lastname": "Lozano",
+        "totalprice": 150,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2025-01-01",
+            "checkout": "2025-01-10"
+        },
+        "additionalneeds": "Breakfast"
+    },
+    "updated_booking": {
+        "firstname": "Jennifer",
+        "lastname": "Lozano",
+        "totalprice": 200,
+        "depositpaid": false,
+        "bookingdates": {
+            "checkin": "2025-02-01",
+            "checkout": "2025-02-10"
+        },
+        "additionalneeds": "Lunch"
+    },
+    "invalid_booking": {
+        "firstname": "",
+        "lastname": "",
+        "totalprice": -1,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "",
+            "checkout": ""
+        }
+    }
+}
